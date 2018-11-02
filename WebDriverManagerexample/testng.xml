@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+        <!--parameter name="Url" value="http://www.toolsqa.com"/-->
+        <parameter name="Url1" value="http://toolsqa.com/automation-practice-switch-windows/"/>
+        
+    <classes>
+      <!--class name="WebDriverManager.WebDriverManagerTest"/-->
+      <class name="practiceSwitchWindowPackage.practiceswitchwindow"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
